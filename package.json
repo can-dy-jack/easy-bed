@@ -1,0 +1,23 @@
+{
+  "name": "easy-bed",
+  "version": "0.0.1",
+  "description": "简单图床",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/can-dy-jack/easy-bed.git"
+  },
+  "keywords": [
+    "bed",
+    "easy"
+  ],
+  "author": "kart jim",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/can-dy-jack/easy-bed/issues"
+  },
+  "homepage": "https://github.com/can-dy-jack/easy-bed#readme"
+}

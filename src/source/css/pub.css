@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    cursor: pointer;
+    user-select: none;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    user-select: none;
+}
+
+#easy-bed-app {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100vh;
+    color: white;
+}
+/* aside */
+#easy-bed-app aside {
+    width: 100%;
+    background: #333;
+    user-select: none;
+}
+
+
+/* section */
+#easy-bed-app section {
+    background-color: #222;
+}
+section .choose-nav {
+    background-color: #333;
+    height: 30px;
+}
+section nav {
+    background-color: #222;
+    height: 50px;
+    display: flex;
+    max-width: 100%;
+    overflow: auto;
+    box-sizing: content-box;
+}
+section nav::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+section nav::-webkit-scrollbar-thumb {
+    height: 5px;
+    background-color: #666;
+}
+section nav span {
+    cursor: pointer;
+    user-select: none;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    transition: all 0.25s ease;
+    border-bottom: 2px solid transparent;
+}
+section nav span:hover {
+    color: rgb(57, 204, 155);
+}
+section nav span.active {
+    background-color: rgba(57, 204, 155, .2);
+    color: rgb(57, 204, 155);
+    border-bottom: 2px solid rgb(57, 204, 155);
+}
+section images-show-area {
+    display: flex;
+}
+section images-show-area img {
+    height: 60px;
+    width: 60px;
+}
